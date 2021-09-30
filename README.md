@@ -3,6 +3,12 @@ Le Musicien est un BOT Discord conçu spécialement pour la lecture de musique.
 
 #### Version actuelle: v1.0.0 LIVE
 
+# Fonctionnalités
+
+Liste des commandes: `ping | back (previous) | clear (cq) | filter | loop (lp, repeat) | nowplaying (np) | pause | play (p) | progress (pbar) | queue (q) | resume (rs) | save (sv) | seek | shuffle (sh) | skip (sk) | stop (dc) | volume (vol)`
+
+Capable de lire des musiques venant de **Youtube**, **Spotify**, **Soundcloud**, **Vimeo**, **Facebook**
+
 # Pré-requis
 
 - Node v16 ou plus.
