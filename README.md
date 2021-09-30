@@ -1,6 +1,8 @@
 # Le-Musicien
 Le Musicien est un BOT Discord conçu spécialement pour la lecture de musique.
 
+#### Version actuelle: v1.0.0 LIVE
+
 # Pré-requis
 
 - Node v16 ou plus.
