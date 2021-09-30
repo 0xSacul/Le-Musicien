@@ -1,0 +1,18 @@
+{
+  "name": "le-musicien",
+  "main": "main.js",
+  "author": "Sacul",
+  "version": "1.0.0",
+  "repository": "https://github.com/Sacuul/Le-Musicien",
+  "description": "Le Musicien est un bot musique.",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "ffmpeg-static": "^4.4.0",
+    "ms": "^3.0.0-canary.1",
+    "opusscript": "^0.0.8"
+  }
+}
