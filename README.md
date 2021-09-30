@@ -13,7 +13,7 @@ Le Musicien est un BOT Discord conçu spécialement pour la lecture de musique.
 
 - Pour commencer, vous allez devoir installer tous les modules de node avec la commande `npm install`
 - Ensuite, renseignez votre token dans le fichier ***config.js***
-- Pour finir, démarrez votre bot avec la commande `node main.js` ou `node start`
+- Pour finir, démarrez votre bot avec la commande `node main.js`
 
 # Aide
 
