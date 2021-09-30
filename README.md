@@ -5,9 +5,15 @@ Le Musicien est un BOT Discord conçu spécialement pour la lecture de musique.
 
 # Fonctionnalités
 
-Liste des commandes: `ping | back (previous) | clear (cq) | filter | loop (lp, repeat) | nowplaying (np) | pause | play (p) | progress (pbar) | queue (q) | resume (rs) | save (sv) | seek | shuffle (sh) | skip (sk) | stop (dc) | volume (vol)`
+Liste des commandes: 
+
+`ping | back (previous) | clear (cq) | filter | loop (lp, repeat) | nowplaying (np) | pause | play (p) | progress (pbar) | queue (q) | resume (rs) | save (sv) | seek | shuffle (sh) | skip (sk) | stop (dc) | volume (vol)`
 
 Capable de lire des musiques venant de **Youtube**, **Spotify**, **Soundcloud**, **Vimeo**, **Facebook**
+
+Les filtres disponibles sont les suivants: 
+
+`bassboost_low, bassboost, bassboost_high, 8D, vaporwave, nightcore, phaser, tremolo, vibrato, reverse, treble, normalizer, normalizer2, surrounding, pulsator, subboost, karaoke, flanger, gate, haas, mcompand, mono, mstlr, mstrr, compressor, expander, softlimiter, chorus, chorus2d, chorus3d, fadein, dim, earrape`
 
 # Pré-requis
 
