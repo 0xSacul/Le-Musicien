@@ -1,9 +1,10 @@
 player.on('error', (queue, error) => {
-    console.log(`❌ **|** Erreur émise par la file d'attente ${error.message}.`);
+    console.log(`❌ | Erreur émise par la file d'attente ${error.message}.`);
+    queue.metadata.send(`❌ **|** Erreur émise par la file d'attente ${error.message}.`);
 });
 
 player.on('connectionError', (queue, error) => {
-    console.log(`❌ **|** Erreur émise par la connexion ${error.message}.`);
+    console.log(`❌ | Erreur émise par la connexion ${error.message}.`);
 });
 
 player.on('trackStart', (queue, track) => {
@@ -12,10 +13,6 @@ player.on('trackStart', (queue, track) => {
 
 player.on('trackAdd', (queue, track) => {
     queue.metadata.send(`✅ **|** Musique **${track.title}** ajouté dans la file d'attente.`);
-});
-
-player.on('botDisconnect', (queue) => {
-    queue.metadata.send('❌ **|** J\'ai été déconnecté manuellement du channel vocal.');
 });
 
 player.on('channelEmpty', (queue) => {

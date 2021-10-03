@@ -14,7 +14,7 @@ module.exports = {
             searchEngine: QueryType.AUTO
         });
 
-        if (!res || !res.tracks.length) return message.channel.send(`❌ **|** No results found, ${message.author}.`);
+        if (!res || !res.tracks.length) return message.channel.send(`❌ **|** Aucun résultat trouvé, ${message.author}.`);
 
         const queue = await player.createQueue(message.guild, {
             metadata: message.channel
